@@ -1,0 +1,1 @@
+I had to develop an application that includes a database created in the MySQL database management system and an interface for it. The database is of M:N type, allowing the user to view, add, modify, and delete data. The interface was implemented using JSP technology. For the frontend, I used some classic HTML and CSS elements.
