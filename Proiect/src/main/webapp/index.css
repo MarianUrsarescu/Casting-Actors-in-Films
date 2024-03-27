@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+html,body{
+	height: 99%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background: url(pozaMAIN.jpg) no-repeat center center fixed;
+
+}
+
+h2{
+	text-align: center;
+	font-size: 35px;
+}
+
+p{
+	text-align: center;
+	font-size: 18px;
+	margin: 10px;
+}
+
+.casuta{
+	background-color: rgb(188, 124, 18);
+	padding: 10px;
+	border-radius: 15px;
+	color: black;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.shift{
+	display: flex;
+	justify-content: space-around;
+	border: 2px solid black;
+	margin-top: 230px;
+}
+
+p a:focus{
+	color: black;
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 240px;
+	border: 2px solid black;
+	padding: 10px;
+	list-style-type: none;
+}

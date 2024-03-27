@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proiectfx.ProiectfxController">
+   <children>
+      <Label layoutX="152.0" layoutY="50.0" text="Adauga rol">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="54.0" layoutY="268.0" text="Nume Personaj">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <TextField fx:id="inputNumePersonajR" layoutX="162.0" layoutY="265.0" />
+      <Button layoutX="174.0" layoutY="433.0" mnemonicParsing="false" onAction="#adaugaRol" text="Adauga" />
+      <Label layoutX="91.0" layoutY="168.0" text="Film">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="87.0" layoutY="219.0" text="Actor">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <ComboBox fx:id="combobox_filme" layoutX="161.0" layoutY="166.0" prefWidth="150.0" />
+      <ComboBox fx:id="combobox_actori" layoutX="161.0" layoutY="217.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
